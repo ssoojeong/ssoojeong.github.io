@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: Sojeong Kim
-logo: logo.svg # You can add own logo.
+logo: profile.png #logo.svg # You can add own logo.
 description: Sojeong Kim is modern minimal theme for Jekyll
 
 
@@ -9,7 +9,7 @@ description: Sojeong Kim is modern minimal theme for Jekyll
 # Author Settings
 author:
   name: Sojeong Kim
-  image: images/01.jpg
+  image: 01.jpg
   say-hello: Hello, I’m <strong>Sojeong Kim</strong>
   bio: I'm passionate about <strong>Computer Vision</strong>, with a strong focus on <strong>Image Synthesis</strong> and <a href="#"><strong>Style Transfer</strong></a>.
 
