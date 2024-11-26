@@ -1,18 +1,19 @@
 #-------------------------------
 # General Site Settings
-title: Zolan
+title: Sojeong Kim
 logo: logo.svg # You can add own logo.
-description: Zolan is modern minimal theme for Jekyll
+description: Sojeong Kim is modern minimal theme for Jekyll
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Alex Rodriguez
-  image: 01.jpg
-  say-hello: Hello, I’m <strong>Alex Rodriguez</strong>
-  bio: Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
+  name: Sojeong Kim
+  image: images/01.jpg
+  say-hello: Hello, I’m <strong>Sojeong Kim</strong>
+  bio: I'm passionate about <strong>Computer Vision</strong>, with a strong focus on <strong>Image Synthesis</strong> and <a href="#"><strong>Style Transfer</strong></a>.
 
+Here's a little bit more about me:
 
 #-------------------------------
 # Contact links
