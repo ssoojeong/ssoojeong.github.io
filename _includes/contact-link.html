@@ -34,6 +34,11 @@
     {% if site.data.settings.map %}
       <li><a href="{{ site.data.settings.map }}"><i class="ion ion-md-pin"></i></a></li>
     {% else %} {% endif %}
+
+    <!-- Website -->
+    {% if site.data.settings.website %}
+      <li><a href="{{ site.data.settings.website }}"><i class="ion ion-md-globe"></i></a></li>
+    {% else %} {% endif %}
     
   </ul>
 </div>
