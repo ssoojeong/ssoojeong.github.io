@@ -19,5 +19,21 @@
     {% if site.data.settings.pinterest %}
       <li><a href="{{ site.data.settings.pinterest }}"><i class="ion ion-logo-pinterest"></i></a></li>
     {% else %} {% endif %}
+
+     <!-- 추가된 이메일 -->
+    {% if site.data.settings.email %}
+      <li><a href="mailto:{{ site.data.settings.email }}"><i class="ion ion-md-mail"></i></a></li>
+    {% else %} {% endif %}
+
+    <!-- 추가된 GitHub -->
+    {% if site.data.settings.github %}
+      <li><a href="{{ site.data.settings.github }}"><i class="ion ion-logo-github"></i></a></li>
+    {% else %} {% endif %}
+
+    <!-- 추가된 지도 -->
+    {% if site.data.settings.map %}
+      <li><a href="{{ site.data.settings.map }}"><i class="ion ion-md-pin"></i></a></li>
+    {% else %} {% endif %}
+    
   </ul>
 </div>
