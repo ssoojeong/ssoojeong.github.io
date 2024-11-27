@@ -18,11 +18,15 @@ Here's a little bit more about me:
   - (March 2023 – Present) Master's degree in Artificial Intelligence at Chung-Ang University
   - [CAU AutoML Lab](http://ml.cau.ac.kr/)
 
+<p><br></p> <!-- 줄바꿈 추가 -->
+
 - ### 📚 Research Interests:
   - Style Transfer [View Project](https://github.com/ssoojeong/Style_Transfer_SOTA_Models.git), [Code](https://github.com/ssoojeong/Style_Transfer_SOTA_Models_v2.git)
   - Diffusion based Image Generation
   - Image-to-Image Translation
  
+<p><br></p> <!-- 줄바꿈 추가 -->
+
 - ### 📬 Contact:
   - **Email**: [sojeong6894@gmail.com](sojeong6894@gmail.com)
 
@@ -32,6 +36,9 @@ Here's a little bit more about me:
 - ### 🧑‍🔬 Research:
   - Conduct experiments with style transfer models based on stable diffusion.
   - Develop methods to improve semantic shape preservation in style transfer.
+
+<p><br></p> <!-- 줄바꿈 추가 -->
+
 - ### 🛠️ Skills:
   - Frameworks: PyTorch, TensorFlow, HuggingFace, Pandas, scikit-learn, 
   - Languages: Python, C/C++
@@ -44,6 +51,9 @@ Here's a little bit more about me:
   - Style transfer to novel views using correspondences between photos and sketches [View Project & Code](https://github.com/ssoojeong/Style_Transfer_to_Novel_Views.git)
   - (Submitted to CVPR 2025) S. Kim, J. Lee "S2PreST: Semantic-Shape-Guided Style Transfer in Inversion-Based Diffusion for Source Images Preservation" [View Project & Code](https://github.com/ssoojeong/S2PreST.git)
   - Focused on leveraging semantic shape guidance for precise source image preservation during style transfer.
+
+<p><br></p> <!-- 줄바꿈 추가 -->
+
 - ### **🌟 Demos** [View Project & Code](https://github.com/ssoojeong/Webtoon_InST.git)
   - **The AI Show 2024** - AutoML Lab Booth, Ilsan, Korea, October 23-25, 2024
   - **2024 Digital Innovation Talent Symposium** - Seoul, Korea, August 22-23, 2024
