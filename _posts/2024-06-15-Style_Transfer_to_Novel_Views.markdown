@@ -9,6 +9,8 @@ tags:   Project
 ## &#x1F4E2; Project Overview: 2404~2406
 
 ### 📄 프로젝트 개요
+<img src="{{ site.baseurl }}/images/novel/intro.png" alt="intro" class="responsive-image">
+
 - 이미지의 시점(구도)을 변환한 후 사용자 취향에 맞춘 스타일 전이를 수행
 - 스케치 이미지를 활용해 사용자가 원하는 특정 새로운 시점을 쉽게 표현함
 - 이후 스타일 전이를 통해 더욱 개개인의 취향에 커스터마이징한 시각적 콘텐츠를 생성
