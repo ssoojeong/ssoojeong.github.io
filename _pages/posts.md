@@ -25,7 +25,7 @@ permalink: /posts/
 <!-- Study Section -->
 <div class="tag-section">
   <h2 class="tag-title">
-    <span class="tag-icon">📘</span> Study
+    <span class="tag-icon">📚</span> Study
   </h2>
   <ul class="post-list">
     {% for post in site.posts %}
