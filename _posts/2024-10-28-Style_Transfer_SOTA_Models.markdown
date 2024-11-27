@@ -6,8 +6,6 @@ image:  main.png
 tags:   Study
 ---
 
-# 
-
 ## &#x1F4E2; Project Report Overview: 241028
 1. &#x2705; Style Transfer 비교 모델 조사
 2. &#x1F680; 인퍼런스 실험 진행

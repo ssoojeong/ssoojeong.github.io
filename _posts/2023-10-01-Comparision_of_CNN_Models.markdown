@@ -15,12 +15,74 @@ tags:   Study
 ----
 
 ### &#x1F31F; CNN 모델 리스트
-| 모델       | 발표 연도 | 발표 학회         | 논문 제목                                             |
-|------------|-----------|------------------|-------------------------------------------------------|
-| **AlexNet**   | 2012년    | NIPS (NeurIPS)   | *ImageNet Classification with Deep Convolutional Neural Networks* |
-| **VGG**       | 2014년    | ICLR             | *Very Deep Convolutional Networks for Large-Scale Image Recognition* |
-| **GoogLeNet** | 2014년    | CVPR             | *Going Deeper with Convolutions*                      |
-| **ResNet**    | 2015년    | CVPR             | *Deep Residual Learning for Image Recognition*        |
+<table>
+  <thead>
+    <tr>
+      <th>모델</th>
+      <th>발표 연도</th>
+      <th>발표 학회</th>
+      <th>논문 제목</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>AlexNet</b></td>
+      <td>2012년</td>
+      <td>NIPS (NeurIPS)</td>
+      <td><i>ImageNet Classification with Deep Convolutional Neural Networks</i></td>
+    </tr>
+    <tr>
+      <td><b>VGG</b></td>
+      <td>2014년</td>
+      <td>ICLR</td>
+      <td><i>Very Deep Convolutional Networks for Large-Scale Image Recognition</i></td>
+    </tr>
+    <tr>
+      <td><b>GoogLeNet</b></td>
+      <td>2014년</td>
+      <td>CVPR</td>
+      <td><i>Going Deeper with Convolutions</i></td>
+    </tr>
+    <tr>
+      <td><b>ResNet</b></td>
+      <td>2015년</td>
+      <td>CVPR</td>
+      <td><i>Deep Residual Learning for Image Recognition</i></td>
+    </tr>
+  </tbody>
+</table>
+
+### 1. AlexNet (2012, NeurIPS)
+![AlexNet](./images/alexnet.png)
+- 딥러닝의 대표적인 모델로, ReLU 활성화 함수와 Dropout을 도입하여 학습 성능을 크게 개선함.  
+- 대규모 데이터셋(ImageNet)에서 우수한 성능을 보여주며, GPU를 활용한 병렬 처리를 최초로 시도한 모델. 
+- 이 모델은 딥러닝 시대를 열었다고 평가받으며, 컨볼루션 신경망(CNN)의 효율성을 증명함.
+
+---
+
+### 2. VGG (2014, ICLR)
+![VGG](./images/vgg.png)
+- 3x3 컨볼루션 필터를 반복적으로 사용하여 간단하면서도 깊은 구조를 가진 네트워크.
+- 모델의 깊이에 따라 VGG-16, VGG-19 등으로 나뉘며, ImageNet 대회에서 상위권 성능을 기록함.
+- 네트워크가 깊어질수록 성능이 향상되지만, 계산량이 많이 늘어나는 단점이 있음.
+
+---
+
+### 3. GoogLeNet (2014, CVPR)
+![GoogLeNet](./images/googlenet.png)
+- Inception 모듈을 활용하여 여러 크기의 필터를 병렬로 적용, 다양한 특징을 추출할 수 있습니다.  
+- 네트워크 깊이와 계산 효율성을 모두 고려하여 설계된 모델로, ImageNet 대회에서 높은 성능을 기록함.
+- 모델 크기가 비교적 작아 실제 환경에서도 효과적으로 사용될 수 있음.
+
+---
+
+### 4. ResNet (2015, CVPR)
+![ResNet](./images/resnet.png)
+- Residual Block을 도입하여 매우 깊은 네트워크의 학습이 가능함.  
+- "Identity Mapping"을 활용해 기울기 소실 문제를 해결하며, 학습 안정성과 성능을 동시에 확보함.
+- 152층 네트워크로 ImageNet 대회를 우승하며 딥러닝 모델의 한계를 극복함.
+
+
 
 
 ### 🧪 평가 지표
@@ -29,6 +91,7 @@ tags:   Study
 
 ### 📝 데이터셋
 #### CIFAR-10
+![ResNet](./images/cifar10.png)
 - 10개의 클래스
 - 32x32 컬러 이미지
 - Train dataset: 50,000장
@@ -86,6 +149,7 @@ Best val Acc: 0.449057
 [paper](cnn-report) 
 
 Comparision of representive Convolution Neural Network models
+
 (권하연, 김소정, 배인우, 이강은)
 
-[cnn-report]: './CNN_report.pdf'
+[cnn-report]: './pdf/CNN_report.pdf'
