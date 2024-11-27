@@ -9,17 +9,23 @@ tags:   Project
 ## Preview of the Demo
 <img src="{{ site.baseurl }}/images/webtoon/demo.jpg" alt="demo preview" class="responsive-image">
 
+---
+
 <!-- Image-to-Image Translation 데모 영상 -->
 <div class="video-container">
     <h3>Image-to-Image Translation 데모 영상</h3>
     <iframe src="https://www.youtube.com/embed/4-QMtaXoLyc" allowfullscreen></iframe>
 </div>
 
+---
+
 <!-- Text-to-Image Generation 안내 영상 -->
 <div class="video-container">
     <h3>Text-to-Image Generation 안내 영상</h3>
     <iframe src="https://www.youtube.com/embed/pdjXOimKhbk" allowfullscreen></iframe>
 </div>
+
+---
 
 <!-- Text-to-Image Generation 데모 영상 -->
 <div class="video-container">
@@ -49,6 +55,8 @@ Clone the repositories.
    git clone https://github.com/ssoojeong/Webtoon_InST.git
    git clone https://github.com/zyxElsa/InST.git
    ```
+
+<p><br></p> <!-- 줄바꿈 추가 -->
 
 Run following commands to install necessary packages.
   ```sh
