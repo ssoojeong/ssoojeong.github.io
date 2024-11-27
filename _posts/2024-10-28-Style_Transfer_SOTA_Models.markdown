@@ -2,7 +2,7 @@
 layout: post
 title:  "Style Transfer SOTA Models"
 date:   2024-10-28 18:05:55 +0300
-image:  style_sota_main.png
+image:  style_sota/style_sota_main.png
 tags:   Study
 ---
 
@@ -13,7 +13,7 @@ tags:   Study
 - Style Transfer 연구 관련하여 Diffusion 기반의 최신 SOTA 모델 조사 및 구현
 
 ### [View Project & Code](https://github.com/ssoojeong/Style_Transfer_SOTA_Models.git)
- 
+
 ----
 
 1. &#x2705; Style Transfer 비교 모델 조사
@@ -127,7 +127,7 @@ tags:   Study
 ## 2. &#x1F680; Experimental Results
 
 #### &#x2705; (완료) 실험 진행: MSCOCO 2014 이미지 인퍼런스 테스트
-<img src="../images/style_sota_main.png" alt="Qualitative exmamples" width="500">
+<img src="/userHome/userhome1/sojeong/2411/ssoojeong.github.io/images/style_sota/style_sota_main.png" alt="Qualitative exmamples" width="500">
 
 - [Stylized Images](https://1drv.ms/f/s!AunTciSw__3qjYUHcKZCyw9OaucVZQ?e=nUVnGF): OneDrive '소정' 폴더에 업로드
         
