@@ -69,7 +69,7 @@ You can see the results of the inference for each model from the following noteb
 ### [View Sample Results](https://1drv.ms/f/s!AunTciSw__3qi4Fw4sZ8ZyBJzQb6_A?e=x3sRBg)
 
 <figure>
-  <img src="../images/baby_video/animatediff_duck.gif" alt="animatediff_duck" width="500">
+  <img src="baby_video/animatediff_duck.gif" alt="animatediff_duck" width="500">
   <figcaption>"A video of a duckling wearing a medieval soldier helmet and riding a skateboard <strong>in cartoon style.</strong>" (generated  by <strong>Animatediff</strong>)</figcaption>
 </figure>
 
