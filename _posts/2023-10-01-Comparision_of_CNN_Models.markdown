@@ -53,7 +53,7 @@ tags:   Study
 </table>
 
 ### 1. AlexNet (2012, NeurIPS)
-![AlexNet](./images/alexnet.png)
+![AlexNet](alexnet.png)
 - 딥러닝의 대표적인 모델로, ReLU 활성화 함수와 Dropout을 도입하여 학습 성능을 크게 개선함.  
 - 대규모 데이터셋(ImageNet)에서 우수한 성능을 보여주며, GPU를 활용한 병렬 처리를 최초로 시도한 모델. 
 - 이 모델은 딥러닝 시대를 열었다고 평가받으며, 컨볼루션 신경망(CNN)의 효율성을 증명함.
@@ -61,7 +61,7 @@ tags:   Study
 ---
 
 ### 2. VGG (2014, ICLR)
-![VGG](./images/vgg.png)
+![VGG](vgg.png)
 - 3x3 컨볼루션 필터를 반복적으로 사용하여 간단하면서도 깊은 구조를 가진 네트워크.
 - 모델의 깊이에 따라 VGG-16, VGG-19 등으로 나뉘며, ImageNet 대회에서 상위권 성능을 기록함.
 - 네트워크가 깊어질수록 성능이 향상되지만, 계산량이 많이 늘어나는 단점이 있음.
@@ -69,7 +69,7 @@ tags:   Study
 ---
 
 ### 3. GoogLeNet (2014, CVPR)
-![GoogLeNet](./images/googlenet.png)
+![GoogLeNet](googlenet.png)
 - Inception 모듈을 활용하여 여러 크기의 필터를 병렬로 적용, 다양한 특징을 추출할 수 있습니다.  
 - 네트워크 깊이와 계산 효율성을 모두 고려하여 설계된 모델로, ImageNet 대회에서 높은 성능을 기록함.
 - 모델 크기가 비교적 작아 실제 환경에서도 효과적으로 사용될 수 있음.
@@ -77,7 +77,7 @@ tags:   Study
 ---
 
 ### 4. ResNet (2015, CVPR)
-![ResNet](./images/resnet.png)
+![ResNet](resnet.png)
 - Residual Block을 도입하여 매우 깊은 네트워크의 학습이 가능함.  
 - "Identity Mapping"을 활용해 기울기 소실 문제를 해결하며, 학습 안정성과 성능을 동시에 확보함.
 - 152층 네트워크로 ImageNet 대회를 우승하며 딥러닝 모델의 한계를 극복함.
@@ -91,7 +91,7 @@ tags:   Study
 
 ### 📝 데이터셋
 #### CIFAR-10
-![ResNet](./images/cifar10.png)
+![ResNet](cifar10.png)
 - 10개의 클래스
 - 32x32 컬러 이미지
 - Train dataset: 50,000장
@@ -109,6 +109,7 @@ conda activate cnns
 
 pip install -r requirements.txt
 ```
+<p><br></p> <!-- 줄바꿈 추가 -->
 
 #### 2. 모델 훈련 및 인퍼런스
 ```bash
@@ -118,7 +119,19 @@ python train.py \
     --epochs 10 #defualt: 25
     --gpus 0 \
 ```
-> **모델명**: resnet18, resnet50, vgg16, alexnet, inception_v3, googlenet, mobilenet_v2, densenet121
+<p>
+  <strong>모델명</strong>: 
+  <code>resnet18</code>, 
+  <code>resnet50</code>, 
+  <code>vgg16</code>, 
+  <code>alexnet</code>, 
+  <code>inception_v3</code>, 
+  <code>googlenet</code>, 
+  <code>mobilenet_v2</code>, 
+  <code>densenet121</code>
+</p>
+
+<p><br></p> <!-- 줄바꿈 추가 -->
 
 #### 3. 모델 학습 log 및 성능 확인
 log 저장 경로: ```./results/log/```
