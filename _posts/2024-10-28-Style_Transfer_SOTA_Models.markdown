@@ -2,17 +2,28 @@
 layout: post
 title:  "Style Transfer SOTA Models"
 date:   2024-10-28 18:05:55 +0300
-image:  main.png
+image:  ./style_sota/main.png
 tags:   Study
 ---
 
 ## &#x1F4E2; Project Report Overview: 241028
+
+### 주요 기능
+- Style Transfer란, 이미지의 스타일(예: 색감, 질감 등)을 다른 콘텐츠 이미지에 적용하는 기술
+- Style Transfer 연구 관련하여 Diffusion 기반의 최신 SOTA 모델 조사 및 구현
+
+### [View Project & Code](https://github.com/ssoojeong/Style_Transfer_SOTA_Models.git)
+ 
+----
+
 1. &#x2705; Style Transfer 비교 모델 조사
 2. &#x1F680; 인퍼런스 실험 진행
     - &#x2705; (완료) 실험 진행: MSCOCO 2014 이미지 인퍼런스 테스트
     - &#x1F525; (예정) 실험 진행: Effeect 이미지 인퍼런스 테스트
     - &#x1F525; (예정) 환경 구축: Docker 생성
     - &#x1F525; (예정) 실험 진행: Effeect 이미지 인퍼런스 완료
+
+---
 
 ## 1. &#x2705; Style Transfer Comparison Models
 ### &#x1F31F; Recommended for use (Qualitative Results Good)
@@ -111,11 +122,13 @@ tags:   Study
 
 ##### <span style="color:dodgerblue;">\*</span><span style="color:dodgerblue;">\*</span><span style="color:gray;">: _(style 10개) 인퍼런스 테스트 완료_</span>
 
-
+---
 
 ## 2. &#x1F680; Experimental Results
 
 #### &#x2705; (완료) 실험 진행: MSCOCO 2014 이미지 인퍼런스 테스트
+<img src="../images/style_sota/main.png" alt="Qualitative exmamples" width="500">
+
 - [Stylized Images](https://1drv.ms/f/s!AunTciSw__3qjYUHcKZCyw9OaucVZQ?e=nUVnGF): OneDrive '소정' 폴더에 업로드
         
     ``` 
