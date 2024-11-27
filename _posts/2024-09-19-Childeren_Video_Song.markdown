@@ -2,7 +2,7 @@
 layout: post
 title:  Text-to-Video or Image-to-Video for Childeren Song
 date:   2024-09-19 15:01:35 +0300
-image:  baby_main.png
+image:  baby_video/baby_main.png
 tags:   Project
 ---
 
