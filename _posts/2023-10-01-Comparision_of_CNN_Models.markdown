@@ -2,7 +2,7 @@
 layout: post
 title:  "Comparision of CNN Models"
 date:   2023-10-01 18:05:55 +0300 
-image:  alexnet.png
+image:  cnn/alexnet.png
 tags:   Study
 ---
 
@@ -56,7 +56,7 @@ tags:   Study
 <p><br></p> <!-- 줄바꿈 추가 -->
 
 ### 1. AlexNet (2012, NeurIPS)
-<img src="../images/alexnet.png" alt="AlexNet Model" width="500">
+<img src="{{ site.baseurl }}/images/cnn/alexnet.png" alt="AlexNet Model" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
 - 딥러닝의 대표적인 모델로, ReLU 활성화 함수와 Dropout을 도입하여 학습 성능을 크게 개선함.  
 - 대규모 데이터셋(ImageNet)에서 우수한 성능을 보여주며, GPU를 활용한 병렬 처리를 최초로 시도한 모델. 
@@ -65,7 +65,8 @@ tags:   Study
 <p><br></p> <!-- 줄바꿈 추가 -->
 
 ### 2. VGG (2014, ICLR)
-<img src="../images/vgg.png" alt="VGG Model" width="500">
+<img src="{{ site.baseurl }}/images/cnn/vgg.png" alt="VGG Model" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+
 
 - 3x3 컨볼루션 필터를 반복적으로 사용하여 간단하면서도 깊은 구조를 가진 네트워크.
 - 모델의 깊이에 따라 VGG-16, VGG-19 등으로 나뉘며, ImageNet 대회에서 상위권 성능을 기록함.
@@ -74,7 +75,7 @@ tags:   Study
 <p><br></p> <!-- 줄바꿈 추가 -->
 
 ### 3. GoogLeNet (2014, CVPR)
-<img src="../images/googlenet.png" alt="googlenet Model" width="500">
+<img src="{{ site.baseurl }}/images/cnn/googlenet.png" alt="GoogleNet Model" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
 - Inception 모듈을 활용하여 여러 크기의 필터를 병렬로 적용, 다양한 특징을 추출할 수 있습니다.  
 - 네트워크 깊이와 계산 효율성을 모두 고려하여 설계된 모델로, ImageNet 대회에서 높은 성능을 기록함.
@@ -83,7 +84,7 @@ tags:   Study
 <p><br></p> <!-- 줄바꿈 추가 -->
 
 ### 4. ResNet (2015, CVPR)
-<img src="../images/resnet.png" alt="resnet Model" width="500">
+<img src="{{ site.baseurl }}/images/cnn/resnet.png" alt="ResNet Model" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
 - Residual Block을 도입하여 매우 깊은 네트워크의 학습이 가능함.  
 - "Identity Mapping"을 활용해 기울기 소실 문제를 해결하며, 학습 안정성과 성능을 동시에 확보함.
@@ -99,7 +100,7 @@ tags:   Study
 
 ### 📝 데이터셋
 #### CIFAR-10
-<img src="../images/cifar10.png" alt="cifar10 dataset" width="500">
+<img src="{{ site.baseurl }}/images/cnn/cifar10.png" alt="Cifar10 Dataset" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
 - 10개의 클래스
 - 32x32 컬러 이미지
