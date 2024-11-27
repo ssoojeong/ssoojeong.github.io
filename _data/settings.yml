@@ -11,14 +11,14 @@ author:
   name: Sojeong Kim
   image: 01.jpg
   say-hello: Hello, I’m <strong>Sojeong Kim</strong>
-  bio: M.S. student in <strong>artificial intelligence</strong> at CAU AutoML Lab. 
+  bio: M.S. student in <a href="#">artificial intelligence</a> at CAU AutoML Lab. 
 
 Here's a little bit more about me:
 
 #-------------------------------
 # Contact links
 email: sojeong6894 at gmail
-github: "https://ssoojeong.github.io/"
+github: "https://github.com/ssoojeong/"
 website: "http://ml.cau.ac.kr/"
 description: >- # this means to ignore newlines until "baseurl:"
   M.S. student in artificial intelligence at CAU AutoML Lab.
