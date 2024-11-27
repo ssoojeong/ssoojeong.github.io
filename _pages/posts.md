@@ -20,6 +20,8 @@ permalink: /posts/
   </ul>
 </div>
 
+---
+
 <!-- Study Section -->
 <div class="tag-section">
   <h2 class="tag-title">
