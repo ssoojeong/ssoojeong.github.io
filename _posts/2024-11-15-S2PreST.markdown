@@ -20,11 +20,15 @@ transferring the style of the reference image to the detailed semantic shapes of
 - dataset: "./dataset/face" [Face Dataset](https://www.kaggle.com/datasets/tapakah68/face-segmentation?resource=download)
 - logs: "./module/logs" [Pretrained logs](https://drive.google.com/drive/folders/1dpzxAPRQE__UuQahH2jSu-JXVcmlAQTW?usp=sharing)
 
+---
+
 ### 2. Create Environment
   ```sh
     conda env create -f environment.yaml
     conda activate ldm
   ```
+
+---
 
 ### 3. Inference
 
@@ -42,6 +46,8 @@ transferring the style of the reference image to the detailed semantic shapes of
              --content_path /path/to/directory/with/images
   ```
 
+---
+
 ### 4. Results
 
 - stylized image: "./results/{style_name}/wt_{style_guidance_weight}/stylized/{content_image_name}"
@@ -50,8 +56,15 @@ transferring the style of the reference image to the detailed semantic shapes of
 ---
 
 ## Comparison Data
+<img src="{{ site.baseurl }}/images/s2prest/comparison.jpg" alt="comparison" class="responsive-image">
+
 - Qualitative results with zoomed-in views of specific square regions from each first row. Columns 3 to 8 present image-to-image stylized results without context-aware text conditioning, while columns 9 to 11 present text-description-guided stylized results.
-![samples](figure/comparison.jpg)
+
+<p><br></p> <!-- 줄바꿈 추가 -->
+
+<img src="{{ site.baseurl }}/images/s2prest/comparison2.jpg" alt="comparison2" class="responsive-image">
+
 
 - Qualitative comparison with close-up views of stylized images from four types of source images.
-![samples](figure/comparison2.png)
+comparison.jpg
+
