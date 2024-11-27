@@ -3,7 +3,7 @@ layout: post
 title:  "S2PreST"
 date:   2024-11-15 18:05:55 +0300
 image:  s2prest/samples.png
-tags:   Project
+tags:   Study
 ---
 ## S2PreST: Semantic-Shape-Guided Style Transfer in Inversion-Based Diffusion for Source Images Preservation
 
@@ -62,7 +62,7 @@ transferring the style of the reference image to the detailed semantic shapes of
 
 <p><br></p> <!-- 줄바꿈 추가 -->
 
-<img src="{{ site.baseurl }}/images/s2prest/comparison2.jpg" alt="comparison2" class="responsive-image">
+<img src="{{ site.baseurl }}/images/s2prest/comparison2.png" alt="comparison2" class="responsive-image">
 
 
 - Qualitative comparison with close-up views of stylized images from four types of source images.
