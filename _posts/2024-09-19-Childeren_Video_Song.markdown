@@ -30,6 +30,8 @@ The following prompts were used to generate videos with different styles using v
 3. **Watercolor Style:**  
    *"A video of a duckling wearing a medieval soldier helmet and riding a skateboard in watercolor style."*
 
+---
+
 ## 2. Comparison Models
 
 The video generation was performed using the following models:
