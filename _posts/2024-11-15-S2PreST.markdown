@@ -12,6 +12,8 @@ tags:   Study
 Image style transfer using diffusion-based methods has focused on generating high-quality results and has become popular in various industrial domains, such as entertainment and digital arts. Although the previous methods have generated great results, they still have some limitations in
 transferring the style of the reference image to the detailed semantic shapes of the source image, leading to significant distortions in some regions. Thus, in this paper, we introduce an additional framework that extracts the Canny edge map from the source image and re-optimizes the style features from the reference image with the semantic features from the source image and its Canny edge map. Also these features are efficiently combined using linear interpolation and applied to the diffusion denoising process without additional fine-tuning. Experimental results demonstrate the ability to transfer style to the semantic shapes of the source image both quantitatively and qualitatively.
 
+### [View Project & Code](https://github.com/ssoojeong/S2PreST.git)
+
 ---
 
 ## Getting Started
