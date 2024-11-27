@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## ✨ Hello, I'm Sojeong Kim! 👋
-Welcome to my GitHub profile! 
+Welcome to my portfolio site! 
 
 I'm passionate about **Computer Vision**, with a strong focus on Image Synthesis and Style Transfer.
 
