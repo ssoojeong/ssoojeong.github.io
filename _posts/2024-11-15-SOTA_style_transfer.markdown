@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Style Transfer SOTA Models"
-date:   2024-11-20 18:05:55 +0300
+date:   2024-11-15 18:05:55 +0300
 image:  sota/comparison.png
 tags:   Project
 ---
