@@ -16,3 +16,32 @@
     margin-bottom: 40px;
   }
 }
+
+
+.tag-section {
+  margin-bottom: 30px;
+}
+
+.tag-title {
+  font-size: 24px;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 8px;
+}
+
+.post-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+}
