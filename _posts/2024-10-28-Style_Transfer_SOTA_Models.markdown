@@ -127,7 +127,7 @@ tags:   Study
 ## 2. &#x1F680; Experimental Results
 
 #### &#x2705; (완료) 실험 진행: MSCOCO 2014 이미지 인퍼런스 테스트
-<img src="style_sota_main.png" alt="Qualitative exmamples" width="500">
+<img src="../images/style_sota_main.png" alt="Qualitative exmamples" width="500">
 
 - [Stylized Images](https://1drv.ms/f/s!AunTciSw__3qjYUHcKZCyw9OaucVZQ?e=nUVnGF): OneDrive '소정' 폴더에 업로드
         
