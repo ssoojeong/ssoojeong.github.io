@@ -2,7 +2,7 @@
 layout: post
 title:  "A Study of Style Transfer using T2I Models"
 date:   2024-06-03 18:05:55 +0300
-image:  study_style/overview.png
+image:  study_style/overview.jpg
 tags:   Project
 ---
 
