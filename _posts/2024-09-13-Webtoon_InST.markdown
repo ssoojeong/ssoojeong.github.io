@@ -17,15 +17,11 @@ tags:   Project
     <iframe src="https://www.youtube.com/embed/4-QMtaXoLyc" allowfullscreen></iframe>
 </div>
 
----
-
 <!-- Text-to-Image Generation 안내 영상 -->
 <div class="video-container">
     <h3>Text-to-Image Generation 안내 영상</h3>
     <iframe src="https://www.youtube.com/embed/pdjXOimKhbk" allowfullscreen></iframe>
 </div>
-
----
 
 <!-- Text-to-Image Generation 데모 영상 -->
 <div class="video-container">

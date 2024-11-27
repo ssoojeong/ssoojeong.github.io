@@ -33,14 +33,12 @@ transferring the style of the reference image to the detailed semantic shapes of
 ### 3. Inference
 
   ```sh
-  
     python ./module/inference.py \
              --style_name='wiki_1' \
              --content_path /path/to/directory/with/images
   ```
 
   ```sh
-
     python ./module/inference.py \
              --style_name='wiki_2' \
              --content_path /path/to/directory/with/images
@@ -66,5 +64,4 @@ transferring the style of the reference image to the detailed semantic shapes of
 
 
 - Qualitative comparison with close-up views of stylized images from four types of source images.
-comparison.jpg
 
